@@ -11,19 +11,22 @@ public class Planet {
      */
     int x, y, width, height;
     int diameter;
+    String colorc;
+    int distanceSun;
+    int orbitPeriod;
     
     public Planet(int diameterPixels) {
         this.diameter = diameterPixels;
     }
 
-    public void draw(Graphics g, int numDays) {
+    public void draw(Graphics g, int numDays, int distanceSun, Color colorc, int orbitPeriod) {
         /*
          * Local variables
          * Reassign or remove these after creating the correct member variables
          */
-        int avgDistFromSun = 1496 / 10;     // You can choose a different scaling than divided by 10
-        int orbitalPeriod = 365;
-        Color color = Color.BLUE;
+        int avgDistFromSun = distanceSun/ 10;     // You can choose a different scaling than divided by 10
+        int orbitalPeriod = orbitPeriod;
+        Color color = colorc;
         
         /*
          * Update position
