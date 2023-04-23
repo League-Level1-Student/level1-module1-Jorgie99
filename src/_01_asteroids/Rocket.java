@@ -22,7 +22,7 @@ public class Rocket implements GameControlScene {
 	/*
 	 * 2. A constructor does not have a return type and must be named the same as
 	 * the class i.e. public Rocket(){
-	 * 
+	 
 	 * In the constructor initialize:
 	 * 
 	 * x = AsteroidsGame.WIDTH / 2 y = AsteroidsGame.HEIGHT / 2 size = 10

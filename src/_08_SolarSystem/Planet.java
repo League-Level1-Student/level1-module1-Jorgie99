@@ -14,6 +14,8 @@ public class Planet {
     String colorc;
     int distanceSun;
     int orbitPeriod;
+
+    
     
     public Planet(int diameterPixels) {
         this.diameter = diameterPixels;
@@ -24,7 +26,7 @@ public class Planet {
          * Local variables
          * Reassign or remove these after creating the correct member variables
          */
-        int avgDistFromSun = distanceSun/ 10;     // You can choose a different scaling than divided by 10
+        int avgDistFromSun = distanceSun/ 100;     // You can choose a different scaling than divided by 10
         int orbitalPeriod = orbitPeriod;
         Color color = colorc;
         
